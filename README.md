@@ -13,8 +13,6 @@ An action for generate gitmoji changelog.
 
 # Usage
 
-See [action.yml](action.yml)
-
 ```yaml
 name: "Generate Gitmoji Changelog"
 
@@ -37,9 +35,9 @@ jobs:
         uses: sercanuste/gitmoji-changelog-action@v1
 ```
 
-# Options
+# Inputs
 
-| Option                | Description                                                                                                               | Required | Options                                                     |  Default Value                                           |
+| Input                 | Description                                                                                                               | Required | Options                                                     |  Default Value                                           |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------- | -------------------------------------------------------- |
 | commit_message        | The commit message to use when updating the changelog.                                                                    | false    | -                                                           | 📝 Update CHANGELOG                                      |
 | format                | Changelog file format                                                                                                     | false    | `markdown`<br />`json`                                      | markdown                                                 |
