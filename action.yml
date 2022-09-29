@@ -1,0 +1,38 @@
+name: "Gitmoji Changelog Action"
+description: "GitHub Action for gitmoji-changelog"
+author: "Sercan Üste <https://github.com/sercanuste>"
+inputs:
+  commit_message:
+    description: "The commit message to use when updating the changelog. Default: 📝 Update CHANGELOG"
+    required: false
+    default: "📝 Update CHANGELOG"
+  format:
+    description: "Changelog file format (markdown, json). Default: markdown"
+    required: false
+    default: "markdown"
+  preset:
+    description: "Preset for gitmoji-changelog. (node, generic, maven, cargo, helm) Default: node (More info: https://docs.gitmoji-changelog.dev/#/?id=%e2%9a%99%ef%b8%8f-presets)"
+    required: false
+    default: "node"
+  group_similar_commits:
+    description: "[⚗️,- beta] Try to group similar commits. Default: false"
+    required: false
+    default: false
+  add_author:
+    description: "Add the author in changelog lines. Default: false"
+    required: false
+    default: false
+  author_email:
+    description: "Email address of commit author"
+    required: false
+    default: "114694492+gitmoji-changelog-bot@users.noreply.github.com"
+  author_name:
+    description: "Name of commit author"
+    required: false
+    default: "Gitmoji Changelog Bot"
+runs:
+  using: "node16"
+  main: "dist/index.js"
+branding:
+  icon: "smile"
+  color: "yellow"
