@@ -11,8 +11,6 @@
 
 An action for generate gitmoji changelog.
 
-<br />
-
 # Usage
 
 See [action.yml](action.yml)
@@ -39,8 +37,6 @@ jobs:
         uses: sercanuste/gitmoji-changelog-action@v1
 ```
 
-<br />
-
 # Options
 
 | Option                | Description                                                                                                               | Required | Options                                                     |  Default Value                                           |
@@ -52,8 +48,6 @@ jobs:
 | add_author            | Add the author in changelog lines.                                                                                        | false    | `true`<br />`false`                                         | false                                                    |
 | author_email          | Email address of commit author                                                                                            | false    | -                                                           | 114694492+gitmoji-changelog-bot@users.noreply.github.com |
 | author_name           | Name of commit author                                                                                                     | false    | -                                                           | Gitmoji Changelog Bot                                    |
-
-<br />
 
 # License
 
