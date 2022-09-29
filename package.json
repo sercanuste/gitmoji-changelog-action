@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sercanuste/gitmoji-changelog-action/issues"
   },
-  "homepage": "https://github.com/sercanuste/gitmoji-changelog-action#readme"
+  "homepage": "https://github.com/sercanuste/gitmoji-changelog-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
 }
