@@ -1,0 +1,24 @@
+{
+  "name": "gitmoji-changelog-action",
+  "version": "0.0.1",
+  "description": "GitHub Action for gitmoji-changelog",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sercanuste/gitmoji-changelog-action.git"
+  },
+  "author": "Sercan Üste",
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript",
+    "Gitmoji",
+    "Changelog"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sercanuste/gitmoji-changelog-action/issues"
+  },
+  "homepage": "https://github.com/sercanuste/gitmoji-changelog-action#readme"
+}
