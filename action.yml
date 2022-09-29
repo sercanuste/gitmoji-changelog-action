@@ -1,4 +1,4 @@
-name: "Gitmoji Changelog Action"
+name: "Generate Gitmoji Changelog"
 description: "GitHub Action for gitmoji-changelog"
 author: "Sercan Üste <https://github.com/sercanuste>"
 inputs:
@@ -34,5 +34,5 @@ runs:
   using: "node16"
   main: "dist/index.js"
 branding:
-  icon: "smile"
+  icon: "align-left"
   color: "yellow"
