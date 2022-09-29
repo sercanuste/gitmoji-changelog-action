@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/sercanuste/gitmoji-changelog-action#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0"
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1"
   }
 }
