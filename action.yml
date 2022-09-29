@@ -1,4 +1,4 @@
-name: "Gitmoji Action"
+name: "Generate Gitmoji Changelog"
 description: "GitHub Action for gitmoji-changelog"
 author: "Sercan Üste <https://github.com/sercanuste>"
 inputs:
