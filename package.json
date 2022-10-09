@@ -1,6 +1,6 @@
 {
   "name": "gitmoji-changelog-action",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "GitHub Action for gitmoji-changelog",
   "main": "index.js",
   "scripts": {
