@@ -4116,8 +4116,8 @@ async function run() {
     const commitMessage = core.getInput('commit_message');
     const format = core.getInput('format');
     const preset = core.getInput('preset');
-    const groupSimilarCommits = core.getInput('group_similar_commits') == "true";
-    const addAuthor = core.getInput('add_author') == "true";
+    const groupSimilarCommits = core.getBooleanInput('group_similar_commits');
+    const addAuthor = core.getBooleanInput('add_author');
 
     const authorEmail = core.getInput('author_email');
     const authorName = core.getInput('author_name');
